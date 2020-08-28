@@ -5,7 +5,3 @@ def my_each(array)
     count += 1
   end
 end
-
-my_each(["Dave", "Bob", "Steve"]) do |item|
-  puts item
-end
