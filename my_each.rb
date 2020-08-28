@@ -6,6 +6,6 @@ def my_each(array)
   end
 end
 
-my_each([1, 2, 3, 4]) do |item|
+my_each(["Dave", "Bob", "Steve"]) do |item|
   puts item
 end
